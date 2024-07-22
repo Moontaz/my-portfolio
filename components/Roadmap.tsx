@@ -18,11 +18,11 @@ const Roadmap = () => {
                 <br /> embedded in minutes
               </span>
               <p className="font-light text-sm">
-                "Simply add <span className="font-semibold">{text}</span>
+                Simply add <span className="font-semibold">{text}</span>
                 <br /> for complete user management functionality. Match to your
                 brand with any
                 <br /> CSS library, then deploy to your own domain — no more
-                jarring redirects!"
+                jarring redirects!
               </p>
             </div>
             {/* <div className="w-fit h-full mx-auto items-center justify-center">

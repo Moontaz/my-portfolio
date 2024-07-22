@@ -1,6 +1,5 @@
 "use client";
 import CircuitBg from "@/components/CircuitBg";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import ImgCarousel from "@/components/ImgCarousel";
 import Navbar from "@/components/Navbar";
