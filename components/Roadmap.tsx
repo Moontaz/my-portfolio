@@ -8,9 +8,9 @@ import { milestoneItems } from "@/data";
 const Roadmap = () => {
   return (
     <>
-      <div className="absolute top-[626px] w-full  h-[1600px] mt-3 bg-[#ffffff] shadow-[0_-1px_50px_10px_rgba(0,0,0,0.25)]">
-        <TracingBeam className="mt-28">
-          <div className="max-w-lg h-[1500px] mr-auto antialiased pt-4 relative">
+      <div className="absolute top-[800px] lg:top-[626px] w-full  h-[1600px] mt-3 bg-[#ffffff] shadow-[0_-1px_50px_10px_rgba(0,0,0,0.25)]">
+        <TracingBeam className="mt-3 lg:mt-28">
+          <div className="max-w-lg h-[1500px] ml-10 lg:ml-0 mr-auto antialiased pt-4 relative">
             <div className="flex flex-col gap-3 items-left">
               <span className="text-xs">Sparkle Components</span>
               <span className="font-bold text-3xl">

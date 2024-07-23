@@ -3,7 +3,7 @@ import React from "react";
 const CircuitBg = () => {
   return (
     <>
-      <div className="max-w-[1920px] absolute flex justify-between left-auto top-16">
+      <div className="max-w-[1920px] absolute flex justify-between left-auto top-60 lg:top-16">
         <div className="absolute h-full w-[35%] bg-gradient-to-r from-white to-transparent"></div>
         <div className="w-[50%] h-[50%] left-0 top-16">
           <img

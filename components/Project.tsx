@@ -101,7 +101,7 @@ export const products = [
 const project = () => {
   return (
     <>
-      <div className="relative mt-[1600px] w-[1600px] h-full ">
+      <div className="relative mt-[1600px] w-[1600px] h-full mb-80">
         <HeroParallax products={products} />
         <div className="absolute h-full w-full -top-[30px]">
           <img

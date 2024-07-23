@@ -12,16 +12,16 @@ export default function Home() {
   // const [hovered, setHovered] = React.useState(true);
   return (
     <>
-      <main className="max-w-[1920px] h-full relative bg-white flex justify-center items-center flex-col mx-auto sm:px-10 px-5 z-2">
+      <main className="max-w-[1920px] w-full h-full overflow-hidden relative bg-white flex flex-col justify-center items-center lg:px-10 px-2 mx-auto z-2">
         <CircuitBg />
-        <div className="w-[2200px] h-[2200px] absolute -top-[200px]">
+        <div className="w-[700px] h-[1500px] lg:w-[2200px] lg:h-[2200px] absolute top-[530px] lg:-top-[200px]">
           <img
             src="/circle.png"
             alt="/circle.png"
             className=" object-cover object-center"
           />
         </div>
-        <div className="max-w-6xl w-full h-full z-10">
+        <div className="max-w-6xl w-full h-full z-10 ">
           <Navbar navItems={navItems} />
           <Circle />
           <Hero />

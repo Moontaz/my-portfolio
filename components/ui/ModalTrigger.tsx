@@ -12,13 +12,13 @@ const ModalTrigger = ({
 }) => {
   // const { setOpen } = useModal();
   return (
-    <a className="px-4 py-1 border border-black  text-white self-end  dark:border-white cursor-pointer relative group transition duration-200">
+    <a className="px-2 lg:px-4 py-1 border border-black  text-white self-end  dark:border-white cursor-pointer relative group transition duration-200">
       <div className="absolute flex flex-col -bottom-[0.35rem] -right-[0.35rem] bg-gray-900 h-full w-full  group-hover:bottom-0 group-hover:right-0 transition-all duration-200" />
       <div className="flex">
-        <span className="relative inline-flex font-light items-center gap-1 text-xs">
+        <span className="relative inline-flex whitespace-nowrap font-light items-center gap-1 text-xs">
           {text}
         </span>
-        <div className="ml-1 p-2 text-xs rounded-sm text-center relative overflow-hidden">
+        <div className="lg:ml-1 lg:p-2 p-0 text-xs rounded-sm text-center relative overflow-hidden">
           <div className="group-hover:translate-x-5 text-center opacity-75 text-white transition duration-150">
             {icon}
           </div>

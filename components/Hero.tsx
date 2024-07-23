@@ -10,7 +10,7 @@ const Hero = () => {
   // const [hovered, setHovered] = React.useState(true);
   return (
     <>
-      <div className="flex flex-col lg:flex-row overflow-hidden items-center justify-center  w-full gap-4 mt-[10rem] mx-auto px-8 relative">
+      <div className="flex flex-col lg:flex-row overflow-hidden items-center justify-center w-full gap-4 mt-[15rem] lg:mt-[10rem] mx-auto px-8 relative">
         <div className="flex flex-col items-center gap-3 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] z-10">
           <p className="uppercase tracking-widest text-xs text-center text-black max-w-80 z-10 -mb-4">
             Dynamic Web Magic with Next.js
