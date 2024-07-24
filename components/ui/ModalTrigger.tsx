@@ -12,7 +12,12 @@ const ModalTrigger = ({
 }) => {
   // const { setOpen } = useModal();
   return (
-    <a className="px-2 lg:px-4 py-1 border border-black  text-white self-end  dark:border-white cursor-pointer relative group transition duration-200">
+    <a
+      className={cn(
+        "px-2 lg:px-4 py-1 border border-black  text-white self-end  dark:border-white cursor-pointer relative group transition duration-200",
+        className
+      )}
+    >
       <div className="absolute flex flex-col -bottom-[0.35rem] -right-[0.35rem] bg-gray-900 h-full w-full  group-hover:bottom-0 group-hover:right-0 transition-all duration-200" />
       <div className="flex">
         <span className="relative inline-flex whitespace-nowrap font-light items-center gap-1 text-xs">

@@ -21,7 +21,7 @@ export default function Home() {
             className=" object-cover object-center"
           />
         </div>
-        <div className="max-w-6xl w-full h-full z-10 ">
+        <div className="max-w-6xl w-full h-full z-10 overflow-hidden">
           <Navbar navItems={navItems} />
           <Circle />
           <Hero />

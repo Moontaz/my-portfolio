@@ -6,10 +6,10 @@ export const imgCars = [
   { name: "/logos/tailwind.svg", link: "/logos/tailwind.svg" },
 ];
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "About", link: "#about", current: true },
+  { name: "Projects", link: "#projects", current: false },
+  { name: "Testimonials", link: "#testimonials", current: false },
+  { name: "Contact", link: "#contact", current: false },
 ];
 export const milestoneItems = [
   { title: "About", description: "#about" },

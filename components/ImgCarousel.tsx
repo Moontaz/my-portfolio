@@ -11,7 +11,7 @@ const ImgCarousel = ({
   className?: string;
 }) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-3 lg:gap-0 justify-between items-center  mt-[7rem] lg:mt-12 mx-1 lg:mx-0">
+    <div className="flex flex-col lg:flex-row gap-3 lg:gap-0 justify-between items-center  mt-[5rem] lg:mt-12 mx-1 lg:mx-0">
       <span className="w-full lg:w-[250px] font-light text-xs lg:text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, hic.
       </span>
