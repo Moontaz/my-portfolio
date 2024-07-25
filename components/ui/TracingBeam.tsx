@@ -51,7 +51,7 @@ export const TracingBeam = ({
       ref={ref}
       className={cn("relative w-full max-w-6xl mx-auto h-full", className)}
     >
-      <div className="absolute -left-4 md:-left-20 top-3">
+      <div className="absolute left-4 md:-left-20 top-3 scale-x-[-1]">
         <motion.div
           transition={{
             duration: 0.2,
@@ -99,7 +99,7 @@ export const TracingBeam = ({
             d={`M 1 0V -36 l 18 24 V ${svgHeight * 0.8} l -18 24V ${svgHeight}`}
             fill="none"
             stroke="url(#gradient)"
-            strokeWidth="1.25"
+            strokeWidth="5"
             className="motion-reduce:hidden"
             transition={{
               duration: 10,
